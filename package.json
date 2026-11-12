@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Internationalisation engineering for AI coding agents — Find it. Fix it. Prove it.",
   "keywords": ["i18n", "internationalisation", "internationalization", "rtl", "localization", "audit", "lint"],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">=22.0.0"
   },
@@ -27,3 +27,4 @@
     "vitest": "^3.0.0"
   }
 }
+

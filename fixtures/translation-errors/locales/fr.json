@@ -1,0 +1,5 @@
+{
+  "welcome": "Bienvenue!",
+  "cart_summary": "Vous avez {count} articles dans votre panier",
+  "farewell": "Au revoir, {user}!"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@worldready/cli",
+  "version": "0.1.0",
+  "description": "WorldReady command-line interface",
+  "type": "module",
+  "bin": {
+    "worldready": "./bin/worldready.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts src/cli.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@worldready/config": "workspace:*",
+    "@worldready/core": "workspace:*",
+    "@worldready/parsers": "workspace:*",
+    "@worldready/reporters": "workspace:*",
+    "@worldready/rules": "workspace:*",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "rimraf": "^6.0.0"
+  },
+  "license": "Apache-2.0"
+}
+

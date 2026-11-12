@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome to WorldReady",
+  "items_count": "You have {count} pending requests",
+  "missing_feature": "This feature description is missing in French",
+  "unused_analytics_key": "Total page views per user session"
+}

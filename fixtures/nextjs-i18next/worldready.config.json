@@ -1,0 +1,15 @@
+{
+  "sourceLocale": "en",
+  "targetLocales": ["fr"],
+  "localesDir": "public/locales",
+  "include": [
+    "pages/**/*.{js,jsx,ts,tsx}",
+    "components/**/*.{js,jsx,ts,tsx}",
+    "public/locales/**/*.json"
+  ],
+  "exclude": [
+    "node_modules/**",
+    ".next/**"
+  ],
+  "rules": {}
+}

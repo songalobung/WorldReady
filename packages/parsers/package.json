@@ -1,0 +1,21 @@
+{
+  "name": "@worldready/parsers",
+  "version": "0.1.0",
+  "description": "WorldReady source code parsers — JS/TS AST, HTML, CSS, JSON locale files",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "parse5": "^7.0.0",
+    "postcss": "^8.0.0",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.7.0", "rimraf": "^6.0.0" },
+  "license": "Apache-2.0"
+}

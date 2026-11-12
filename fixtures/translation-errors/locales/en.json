@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome back, {name}!",
+  "cart_summary": "You have {count} items totaling {price} in your cart",
+  "missing_action": "Click here to proceed",
+  "farewell": "Goodbye, {user}!"
+}

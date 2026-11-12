@@ -1,0 +1,17 @@
+{
+  "name": "@worldready/core",
+  "version": "0.1.0",
+  "description": "WorldReady core audit engine — types, finding schema, and orchestration",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.7.0", "rimraf": "^6.0.0" },
+  "license": "Apache-2.0"
+}

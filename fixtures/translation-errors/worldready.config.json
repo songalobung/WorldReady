@@ -1,0 +1,12 @@
+{
+  "sourceLocale": "en",
+  "targetLocales": ["fr", "es"],
+  "localesDir": "locales",
+  "include": [
+    "locales/**/*.json"
+  ],
+  "exclude": [
+    "node_modules/**"
+  ],
+  "rules": {}
+}
