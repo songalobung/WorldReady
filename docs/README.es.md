@@ -66,3 +66,4 @@ npx worldready test --locale ar-XB
 ## 📄 Licencia
 
 Publicado bajo la licencia **Apache License 2.0**. Consulta el archivo [LICENSE](../LICENSE) para más detalles.
+

@@ -79,3 +79,4 @@ npx worldready test --locale ar-XB
 ## 📄 开源许可证
 
 本项目基于 **Apache License, Version 2.0** 许可证开源。详情请见 [LICENSE](../LICENSE)。
+
